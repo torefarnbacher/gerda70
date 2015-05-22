@@ -1,328 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<style type="text/css">
-	body {
-	    display: flex;
-	    min-height: 100vh;
-	    flex-direction: column;
-  	  }
-
-  	  main {
-  	    flex: 1 0 auto;
-  	  }
-  body {
-        background-image: url("images/br.jpg");
-} 
-	</style>
+  <head>
+    <title></title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <style type="text/css">
+    body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }
+    main {
+    flex: 1 0 auto;
+    }
+    body {
+    background-image: url("images/br.jpg");
+    }
+    </style>
     
-</head>
-<body>
-<!--Import jQuery before materialize.js-->	
-      <script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-<header>
-<nav>
-    <nav>
-    <div class="nav-wrapper cyan darken-4">
-      <a href="#"class="brand-logo center blue-text">Gerdas 70. Geburtstag</a>
-      
-    </div>
-  </nav>
-
-</header>
-<main>
-
- <div class="container">
-
-  <div class="row">
-      
-      <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
+  </head>
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <header>
+      <nav>
+        <nav>
+          <div class="nav-wrapper cyan darken-4">
+            <a href="#"class="brand-logo center blue-text">Gerdas 70. Geburtstag</a>
+            
+          </div>
+        </nav>
+      </header>
+      <main>
+      <div class="container">
+        <div class="row" id="row-gast">
+          
+          <div id ="card-gast" class="cardGast col s12 m6 l3">
+            <div class="card grey lighten-1">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/bild.jpeg">
+                <img class="activator" src="images/torestart.JPG">
               </div>
               <div class="card-content grey lighten-1">
-              <p>Name 1</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator grey-text text-darken-4">
+                  <i class="mdi-navigation-more-vert right"></i>
+<div class ="gast-name">Tore</div>
+                
+                </span>
+                
               </div>
               <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 1 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 1</p>
+                <span class="card-title grey-text text-darken-4"><div class="gast-name2">Name 1 </div><i class="mdi-navigation-close right"></i></span>
+                <p class="gast-text"> Glueckwunsch 1</p>
               </div>
             </div>
-            </div>
-
-        <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 2</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 2 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 2</p>
-              </div>
-            </div>
-            </div>
-        <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 3</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 3 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 3</p>
-              </div>
-            </div>
-            </div>
-        <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 4</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 4<i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 4</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 5</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 5 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 5</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 6</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 6 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 6</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 7</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 7 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 7</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 8</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 8 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 8</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 9</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 9 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 9</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 10</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 10 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 10</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 11</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 11 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 11</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 12</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 12 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 12</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              <p>Name 13</p>
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 13 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 13</p>
-              </div>
-            </div>
-            </div>
-            <div class="col s12 m6 l3">
-        <div class="card grey lighten-1">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../images/bild.jpeg">
-              </div>
-              <div class="card-content">
-              Name 14
-                <span class="card-title activator grey-text text-darken-4"><i class="mdi-navigation-more-vert right"></i></span>
-             
-              </div>
-              <div class="card-reveal grey lighten-1">
-                <span class="card-title grey-text text-darken-4">Name 14 <i class="mdi-navigation-close right"></i></span>
-                <p>Glueckwunsch 14</p>
-              </div>
-            </div>
-            </div>
-            
-        <div class="col s12 m6 l3">    
-        <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="images/office.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">gu <i class="mdi-navigation-more-vert right"></i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
         </div>
       </div>
-      </div>
-
       
-      </div>
-    </div>
-  </div>
-
-</main>
-
-
-<!-- Footer -->
-
-     <footer class="page-footer cyan darken-4">
+      </main>
+      <!-- Footer -->
+      <footer class="page-footer cyan darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text"></h5>
+              <p class="grey-text text-lighten-4"></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text"></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright cyan darken-4">
           <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text"></h5>
-                <p class="grey-text text-lighten-4"></p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text"></h5>
-                  
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright cyan darken-4">
-            <div class="container">
             <a class="grey-text text-lighten-4 right" href="#!"></a>
-            </div>
           </div>
-        </footer>
-
-
-
-
-
-            
-<!--Import jQuery before materialize.js-->  
+        </div>
+      </footer>
+      
+      <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="../jquery/jquery-2.1.4.min.js"></script>
       <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
-            
-
-</body>
-</html>
+      
+      <script>
+      
+      $.getJSON('json/gaeste.json', function(data) {
+      $.each(data, function(i,item){
+      $.each(this, function(i,v){
+      //alert(v.name);
+      //$( ".licontainer" ).clone().appendTo( "#lstkfz" );
+      var newCard = $("#card-gast").clone();
+      newCard.find('img').text(v.image);
+      //newCard.find('.activator').text(v.image);
+      newCard.find('.activator').attr('src',v.image);
+      newCard.find('.gast-name').text(v.name);
+      newCard.find('.gast-name2').text(v.name);
+      newCard.find('.gast-text').text(v.text);
+      newCard.appendTo( $("#row-gast"));
+      });
+      });
+      });
+      </script>
+    </body>
+  </html>

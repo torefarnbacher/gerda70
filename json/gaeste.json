@@ -1,0 +1,40 @@
+{ "data" : 
+    [
+        { 
+            "name" : "Thorsten",
+            "image" : "images/DSC_0004.JPG",
+            "text" : "Hallo liebe Mama"
+        },
+        { 
+            "name" : "Tore",
+            "image" : "images/torestart.JPG",
+            "text" : "Hallo liebe Oma"
+        },
+        { 
+            "name" : "Wolfgang",
+            "image" : "images/DSC_0006.JPG",
+            "text" : "Hallo liebe Gerda"
+        },
+        { 
+            "name" : "Wolfgang",
+            "image" : "images/DSC_0007.JPG",
+            "text" : "Hallo liebe Gerda"
+        },
+        { 
+            "name" : "Wolfgang",
+            "image" : "images/DSC_0008.JPG",
+            "text" : "Hallo liebe Gerda"
+        },
+        { 
+            "name" : "Wolfgang",
+            "image" : "images/DSC_0009.JPG",
+            "text" : "Hallo liebe Gerda"
+        },
+        { 
+            "name" : "Kerstin",
+            "image" : "images/DSC_0010.JPG",
+            "text" : "Hallo meine liebste Mama. Du wirst nicht älter, Du wirst schöner !!!"
+        }
+    ]
+    
+}
